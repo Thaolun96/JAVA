@@ -5,7 +5,7 @@ public class bai3 extends Frame
    private TextField tfCount;  
    private Button btnCount;    
    private int count = 0;      
-   public WindowEventDemo() {
+   public bai3() {
       setLayout(new FlowLayout()); 
       add(new Label("Counter"));   
       tfCount = new TextField("0", 10); 
@@ -19,7 +19,7 @@ public class bai3 extends Frame
       setVisible(true);            
    }
    public static void main(String[] args) {
-      new WindowEventDemo();  
+      new bai3();  
    }
    @Override
    public void actionPerformed(ActionEvent evt) {
